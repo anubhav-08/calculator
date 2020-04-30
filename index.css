@@ -81,13 +81,6 @@ button:active{
 .all-clear:active{
 	background-color: #cc0000;
 }
-
-@media all and (max-width: 670px)
-{
-	.calculator{
-		width:100%;
-	}
-}
 .footer {
 	text-align: center;
 	color:red;
@@ -95,4 +88,21 @@ button:active{
 	background-color: black;
 	margin-top: 10px;
 	border-radius: 10px;
+}
+
+
+@media all and (max-width: 670px)
+{
+	.container{
+		width:670px;
+	}
+	.calculator{
+		width:100%;
+	}
+	.scr, .keypad{
+	
+		width:auto;
+		height:auto;
+	}
+
 }
