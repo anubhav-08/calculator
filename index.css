@@ -83,7 +83,7 @@ button:active{
 }
 @media all and (max-width: 670px)
 {
-	.container{
+	.calculator{
 		width:100%;
 	}
 }
