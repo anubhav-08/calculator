@@ -88,7 +88,7 @@ function handleOperator(nextOperator)
 
 		calculator.displayValue = String(result);
 		calculator.firstOperand = result;
-		return;
+		
 	}
 
 
@@ -102,7 +102,7 @@ const performCalculation = {
 	'*': (firstOperand, secondOperand)=> firstOperand*secondOperand,
 	'+': (firstOperand, secondOperand)=> firstOperand+secondOperand,
 	'-': (firstOperand, secondOperand)=> firstOperand-secondOperand,
-	
+	'=': (firstOperand, secondOperand)=> secondOperand,
 	'x*y':(firstOperand,secondOperand)=>{
 		let sol = 1;
 		for (let i=1; i<= secondOperand; i++){
