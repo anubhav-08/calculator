@@ -94,9 +94,7 @@ button:active{
 @media all and (max-width: 670px)
 {
 	.container{
-		width:670px;
-	}
-	.calculator{
+	
 		width:100%;
 	}
 	.scr, .keypad{
