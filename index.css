@@ -81,3 +81,9 @@ button:active{
 .all-clear:active{
 	background-color: #cc0000;
 }
+@media all and (max-width: 670px)
+{
+	.container{
+		width:100%;
+	}
+}
