@@ -53,7 +53,7 @@ button{
  	width:175px;
 }
 .keypad{
-	padding-top: 10px;
+	padding-top: 30px;
 }
 sup{
 	font-size: 20px;
@@ -81,9 +81,18 @@ button:active{
 .all-clear:active{
 	background-color: #cc0000;
 }
+
 @media all and (max-width: 670px)
 {
 	.calculator{
 		width:100%;
 	}
+}
+.footer {
+	text-align: center;
+	color:red;
+	font-size: 20px;
+	background-color: black;
+	margin-top: 10px;
+	border-radius: 10px;
 }
