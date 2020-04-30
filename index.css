@@ -89,6 +89,42 @@ button:active{
 	margin-top: 10px;
 	border-radius: 10px;
 }
+@media(max-width: 1000px)
+{
+	.container{
+		width:280px;
+		margin :auto;
+	}
+	.calculator{
+		width:280px;
+		height:460px;
+	}
+	.scr{
+	width:100%;
+	height:70px;
+	
+	font-size: 25px;
+}
+button{
+	
+	width:50px;
+	height:50px;
+	margin:5px;
+	
+	font-size: 20px;
+}
+.zero{
+ 	width:115px;
+ }
+.keypad{
+	padding-top: 20px;
+}
+sup{
+	font-size: 5px;
+}
+	
+}
+span{
+	size:5px;
 
-
-
+}
